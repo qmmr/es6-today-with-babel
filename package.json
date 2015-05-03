@@ -1,0 +1,22 @@
+{
+  "name": "es6-today-with-babel",
+  "version": "0.0.1",
+  "description": "How to write ES6 today using Babel.js transpiler.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "./node_modules/.bin/babel src --out-dir dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qmmr/es6-today-with-babel.git"
+  },
+  "author": "Marcin Kumorek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qmmr/es6-today-with-babel/issues"
+  },
+  "homepage": "http://qmmr.me",
+  "dependencies": {
+    "babel": "~5.2.x"
+  }
+}
