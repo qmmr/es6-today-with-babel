@@ -11,11 +11,17 @@ export default class Person {
 		}
 	}
 
-	getFriendsFullNames() {
-		return this.friendsList.map(friend => friend.fullName)
+	getFriends() {
+		return [].slice.call(this.friendsList)
 	}
 
 	get fullName() {
 		return `${ this.firstName } ${ this.lastName }`
+	}
+
+	set fullName(name) {
+		let [ firstName, lastName ] = name.split(' ')
+		this.firstName = firstName
+		this.lastName = lastName
 	}
 }
