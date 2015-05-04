@@ -13,8 +13,5 @@ for (let friend of walter.getFriends()) {
 }
 
 walter.fullName = 'Mr. Heisenberg'
-
-for (let friend of walter.getFriends()) {
-	console.log(`${ walter.fullName } friends with ${ friend.fullName }`)
-}
+console.log(walter.fullName) // Mr. Heisenberg
 
