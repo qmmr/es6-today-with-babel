@@ -3,7 +3,7 @@
 ## How to write ES6 today using Babel.js transpiler
 
 This repository is hosting materials for the blog post
-http://qmmr.me/es6-today-with-babel
+http://qmmr.me/2015/05/04/es6-today-with-babel-js/
 
 ## Requirements
 
